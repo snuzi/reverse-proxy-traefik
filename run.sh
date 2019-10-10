@@ -11,6 +11,6 @@ sudo bash -c 'echo "127.0.0.1 app1.test" >> /etc/hosts'
 sudo bash -c 'echo "127.0.0.1 app2.test" >> /etc/hosts'
 sudo bash -c 'echo "127.0.0.1 app3.test" >> /etc/hosts'
 
-curl http://app1.test/
-curl http://app2.test/
-curl http://app3.test/
+curl http://app1.test:8070/
+curl http://app2.test:8070/
+curl http://app3.test:8070/
