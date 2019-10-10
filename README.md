@@ -1,5 +1,4 @@
-# reverse-proxy-traefik
-Traefik reverse proxy demo
+# Traefik reverse proxy demo
 
 
 # Example `docker-compose` setup that routes to separate hosts while exposing one port
