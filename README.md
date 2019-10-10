@@ -7,7 +7,7 @@ Traefik reversy proxy demo
 This example runs 4 different docker containers:
 
  * a `traefik` reverse proxy
- * 3 `caddy` instances (simple/modern web server with minimal config)
+ * 3 `apache` instances
 
 The 3 applications are completely isolated from the outside network, and are neither
 accessible nor can access the WAN.
