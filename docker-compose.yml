@@ -22,7 +22,7 @@ services:
       outside-world:
       internal-network:
 
-  # app1, app2 and app3 are Caddy instances listening to port 80 and serving an index.html.
+  # app1, app2 and app3 are Apache instances listening to port 80 and serving an index.html.
   app1:
     build:
       context: .
